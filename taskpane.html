@@ -1,0 +1,27 @@
+const taskpaneHtml = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Onay Ekranı</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+  <script>
+    Office.initialize = function () {
+      document.getElementById("confirmSend").onclick = function () {
+        Office.context.ui.messageParent("send");
+      };
+      document.getElementById("cancelSend").onclick = function () {
+        Office.context.ui.messageParent("cancel");
+      };
+    };
+  </script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    button { margin: 10px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h3>Bu e-postayı göndermek istediğinize emin misiniz?</h3>
+  <button id="confirmSend">Evet, Gönder</button>
+  <button id="cancelSend">Hayır</button>
+</body>
+</html>`;
