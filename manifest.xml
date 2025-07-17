@@ -28,5 +28,6 @@
   </FormSettings>
 
   <Permissions>ReadWriteItem</Permissions>
+
   <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit" />
 </OfficeApp>
