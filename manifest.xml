@@ -22,7 +22,7 @@
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://aquamarine-gelato-8f6543.netlify.app/taskpane.html" />
+        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/" />
       </DesktopSettings>
     </Form>
   </FormSettings>
