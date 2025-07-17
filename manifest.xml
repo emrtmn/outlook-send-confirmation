@@ -22,7 +22,7 @@
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://mailaddins.rebul.com/" />
+        <SourceLocation DefaultValue="https://mailaddins.rebul.com/taskpane.html" />
       </DesktopSettings>
     </Form>
   </FormSettings>
