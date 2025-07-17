@@ -22,7 +22,7 @@ const manifestXml = `<?xml version="1.0" encoding="UTF-8"?>
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://emrtmn/outlook-send-confirmation.vercel.app/taskpane.html" />
+        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
       </DesktopSettings>
     </Form>
   </FormSettings>
