@@ -1,8 +1,9 @@
+// next.config.js
 module.exports = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/(.*)", // tüm dosyalar için geçerli
         headers: [
           {
             key: "Content-Security-Policy",
