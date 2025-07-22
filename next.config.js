@@ -1,11 +1,8 @@
-// next.config.js
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   async headers() {
     return [
       {
-        source: "/manifest.xml",
+        source: "/manifest.txt",
         headers: [
           {
             key: "Content-Type",
@@ -19,6 +16,4 @@ const nextConfig = {
       }
     ];
   }
-};
-
-module.exports = nextConfig;
+}
