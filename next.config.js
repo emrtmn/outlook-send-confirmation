@@ -1,19 +1,24 @@
-module.exports = {
+// next.config.js
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/manifest.xml",
         headers: [
           {
-            key: "Content-Security-Policy",
-            value: "frame-ancestors 'self' https://outlook.office.com https://outlook.office365.com;"
+            key: "Content-Type",
+            value: "text/xml; charset=utf-8"
           },
           {
-            key: "X-Frame-Options",
-            value: "ALLOWALL"
+            key: "Access-Control-Allow-Origin",
+            value: "*"
           }
         ]
       }
     ];
   }
 };
+
+module.exports = nextConfig;
