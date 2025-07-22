@@ -5,7 +5,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/manifest.txt"
+        source: "/manifest.xml",
         headers: [
           {
             key: "Content-Type",
