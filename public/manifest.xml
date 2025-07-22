@@ -24,6 +24,12 @@
       <DesktopSettings>
         <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
       </DesktopSettings>
+      <TabletSettings>
+        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
+      </TabletSettings>
+      <PhoneSettings>
+        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
+      </PhoneSettings>
     </Form>
   </FormSettings>
 
