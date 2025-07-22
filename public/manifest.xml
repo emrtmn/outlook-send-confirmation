@@ -7,27 +7,27 @@
   <ProviderName>Rebul Yazılım</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName>Send Confirmation</DisplayName>
-  <Description>Mail gönderiminden önce onay alır.</Description>
+  <Description>Mail gönderilmeden önce kullanıcıdan onay alınır.</Description>
 
   <Hosts>
-    <Host Name="Mailbox" />
+    <Host Name="Mailbox"/>
   </Hosts>
 
   <Requirements>
     <Sets DefaultMinVersion="1.8">
-      <Set Name="Mailbox" />
+      <Set Name="Mailbox"/>
     </Sets>
   </Requirements>
 
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
+        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
 
   <Permissions>ReadWriteItem</Permissions>
 
-  <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit" />
+  <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/>
 </OfficeApp>
