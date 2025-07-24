@@ -1,17 +1,12 @@
-
 const nextConfig = {
   async headers() {
     return [
       {
-        source: "/manifest.txt",
+        source: "/manifest.xml",
         headers: [
           {
             key: "Content-Type",
-            value: "text/xml; charset=utf-8"
-          },
-          {
-            key: "Access-Control-Allow-Origin",
-            value: "*"
+            value: "application/xml"
           }
         ]
       }
