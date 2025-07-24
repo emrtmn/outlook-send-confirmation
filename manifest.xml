@@ -19,7 +19,7 @@
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://outlook-send-confirmation.vercel.app/taskpane.html" />
+        <SourceLocation DefaultValue="https://outlook-send-confirmation-git-main-rebul-kozmetiks-projects.vercel.app/taskpane.html" />
       </DesktopSettings>
     </Form>
   </FormSettings>
