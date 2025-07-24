@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "src": "/manifest.xml",
+      "headers": {
+        "Content-Type": "text/xml; charset=utf-8"
+      },
+      "dest": "/manifest.xml"
+    },
+    {
+      "src": "/taskpane.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "dest": "/taskpane.html"
+    },
+    {
+      "src": "/",
+      "status": 301,
+      "headers": {
+        "Location": "/taskpane.html"
+      }
+    }
+  ]
+}
